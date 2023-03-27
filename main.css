@@ -33,6 +33,7 @@ span{
 nav ul li{
     list-style-type: none;
     display: inline-block;
+    flex-wrap: wrap;
     padding:10px 25px;
 }
 nav ul li a{
@@ -321,9 +322,10 @@ footer p:nth-child(2){
     }
     .contact-me p{
         margin-left: 50px;
+        font-size: 20px;
     }
     .content h1{
-        font-size: 35px;
+        font-size: 18px;
         flex-wrap: wrap;
         list-style:armenian ;
     }
@@ -343,22 +345,24 @@ footer p:nth-child(2){
         .logo{
             color: white;
             display: flex;
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: 1px;
             cursor: pointer;
         }
         nav ul li{
             list-style-type: none;
             display: inline-block;
+            flex-wrap: wrap;
             padding:10px 0px;
+            font-size: 8px;
         }
         .btn{
             background-color: #f9004d;
             color: white;
             text-decoration: none;
             border: 2px solid transparent;
-            
-            align-items: end;
+            font-size: 8px;
+            align-items: self-end;
             padding:1px 1px;
             border-radius: 30px;
             transition: transform .4s;
@@ -372,7 +376,7 @@ footer p:nth-child(2){
         }
         .about-text h2{
             color: white;
-            font-size: 50px;
+            font-size: 40px;
             text-transform: capitalize;
             margin-bottom: 20px;
         }
@@ -382,5 +386,15 @@ footer p:nth-child(2){
             font-size: 18px;
             margin-bottom: 25px;
             text-transform: capitalize;
+        }
+        h3{
+            color: white;
+            font-size: 15px;
+            margin-bottom: 50px;
+        }
+        h4{
+            color: #fcfcfc;
+            letter-spacing: 2px;
+            font-size: 19px;
         }
 }
